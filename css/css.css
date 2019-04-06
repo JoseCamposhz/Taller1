@@ -1,0 +1,117 @@
+body{
+    padding-top: 50px;
+}
+
+.navbar-inverse {
+    border-radius: 0!important;
+    margin-bottom: 0!important;
+    
+}
+#navfixed{
+    width: 100%;
+    left: 0;
+    top: 0;
+    position: fixed;
+    z-index: 100;
+}
+
+.masthead {
+    position: relative;
+    background: url(https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/56f34a74723409.5c38116544309.jpg) no-repeat center center;
+    background-size: cover;
+    padding-top: 50rem;
+    padding-bottom: 5rem;
+}
+.fondo{
+    position: relative;
+    background-color: #333!important;
+}
+
+.margin-form{
+    margin: 5px;
+}
+.text-white {
+    color: #fff!important;
+}
+
+.cta-style {
+    width: 100%;
+    border-color: #1d1d1d;
+    color: #fff;
+    background-color: #1d1d1d;
+}
+.button-cta {
+    transition: all .5s ease;
+    font-family: Armour_W_Bd,arial,sans-serif;
+    font-size: 12px;
+    padding: 7px 10px;
+    display: inline-block;
+    border: 2px solid transparent;
+    text-align: center;
+    text-transform: uppercase;
+    vertical-align: middle;
+}
+
+.h3-aviso{
+    margin: 20px;
+    width: 96%;
+    display: block;
+    margin: 0!important;
+    padding: 0;
+    font-size: 1.72vw;
+    font-size: 45px;
+    color: #1d1d1d;
+    font-family: Armour_W_XBd,Arial,sans-serif;
+    font-weight: 750;
+    line-height: 1;
+    text-transform: none;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.container{
+    padding: 1rem 0 1rem 0 !important; 
+}
+.slot-3{
+    width: 25%;
+    float: left;
+    padding: 0!important;
+}
+.slot-4{
+    width: 33.33333333%;
+    float: left;
+    padding: 0!important;
+}
+
+/* Pagina Responsiva */
+@media screen and (min-width:834px) and (max-width:991px){
+    #aviso{
+        display: none;
+    }
+}
+@media screen and (max-width:833px){
+    #aviso{
+        display: none;
+    }
+}
+@media screen and (max-width:767px){
+    #aviso{
+        display: none;
+    }
+    .masthead {
+        position: relative;
+        background: url(https://tribune.net.ph/wp-content/uploads/2019/01/1-18-696x580.jpg) no-repeat center center;
+        background-size: cover;
+        padding-top: 25rem;
+        padding-bottom: 3rem;
+    }
+    .slot-3{
+        display:none ;
+    }
+    .slot-4{
+        width: 100%;
+        float: left;
+        padding: 0!important;
+        padding-bottom: 1em!important;
+    }
+}
